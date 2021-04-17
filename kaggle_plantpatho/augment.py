@@ -7,7 +7,7 @@ from kornia import augmentation, geometry, image_to_tensor
 # Define the augmentations pipeline
 from torch import Tensor
 from torchvision import transforms as T
-from torchvision.transforms import InterpolationMode
+from torchvision.transforms.functional import InterpolationMode
 
 from kaggle_plantpatho import DATASET_IMAGE_MEAN, DATASET_IMAGE_STD
 
